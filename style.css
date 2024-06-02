@@ -6,13 +6,20 @@ a {
     text-decoration: none;
     color: lightcoral;
     transition-duration: 0.5s;
+    font-size:50px;
 }
 a:hover {
-    font-size: 20px;
+    font-size: 70px;
     border: 2px solid white;
     background-color: white;
     border-radius: 20px;
-    transition-duration: 0.5s;
+    transform:rotateY(360deg);
+    transition-duration: 2s;
+}
+img:hover {
+    transform:rotatex(360deg);
+    transition-duration: 2s;
+}
 }
 main {
     font-family: caveat;
@@ -27,4 +34,8 @@ p:hover {
 }
 p {
     transition-duration: 0.5s;
+}
+img:hover {
+    transform:rotatex(360deg);
+    transition-duration: 2s;
 }
