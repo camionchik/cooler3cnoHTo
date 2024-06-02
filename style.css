@@ -29,13 +29,13 @@ header {
 }
 p:hover {
     background-color:khaki;
-    font-size: 20px;
+    font-size: 30px;
     transition-duration: 0.5s;
 }
 p {
     transition-duration: 0.5s;
 }
 img:hover {
-    transform:rotatex(360deg);
+    transform:rotateX(360deg);
     transition-duration: 2s;
 }
