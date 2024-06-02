@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif;
+    background-color: lightgoldenrodyellow;
+}
+a {
+    text-decoration: none;
+    color: lightcoral;
+    transition-duration: 0.5s;
+}
+a:hover {
+    font-size: 20px;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 20px;
+    transition-duration: 0.5s;
+}
+main {
+    font-family: caveat;
+}
+header {
+    font-family: 'press start 2P';
+}
+p:hover {
+    background-color:khaki;
+    font-size: 20px;
+    transition-duration: 0.5s;
+}
+p {
+    transition-duration: 0.5s;
+}
