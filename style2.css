@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+    background-color: lightgoldenrodyellow;
+    font-family: Caveat;
+}
+a {
+    text-decoration: none;
+    color: lightcoral;
+    font-size: 20px;
+    border: 2px dashed plum;
+    background-color: pink;
+    border-radius: 10px
+}
+main {
+    font-family: caveat;
+}
+header {
+    font-family: 'press start 2P';
+}
+nav {
+    display:flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+a:hover {
+    transform:rotateY(360deg);
+    transition-duration: 2s;
+}
+img:hover {
+    transform:rotatex(360deg);
+    transition-duration: 2s;
+}
